@@ -1,0 +1,17 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  padding: 80px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  overflow: hidden;
+}
+@media (max-Wwidth:500px) {
+  .App {
+    padding: 0;
+  }
+}

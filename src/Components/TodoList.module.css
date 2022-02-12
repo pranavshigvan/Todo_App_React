@@ -1,0 +1,20 @@
+.todolist {
+    border-radius: 5px;
+    width: 100%;
+    max-height: 393px;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.todolist::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+}
+li:first-of-type {
+    border-radius: 5px 5px 0 0;
+}
+
+@media (max-Width:500px){
+    .todolist {
+        max-height: 300px;
+    }
+}

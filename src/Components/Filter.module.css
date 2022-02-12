@@ -1,0 +1,21 @@
+.filter {
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.filter button {
+    height: 1.1rem;
+    background-color: transparent;
+    border: none;
+    margin: 0 15px;
+    cursor: pointer;
+}
+@media (max-width:500px){
+    .filter {
+        position: absolute;
+        left: 0;
+        width: 100%;
+        top: 120%;
+    }
+}
